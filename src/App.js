@@ -60,7 +60,7 @@ class App extends Component {
     return (
       <div className="notesWrapper">
         <div className="notesHeader">
-          <div className="heading">To-Do List</div>
+          <div className="heading">Notes</div>
         </div>
         <div className="notesBody">
           {
