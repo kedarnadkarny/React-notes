@@ -3,8 +3,8 @@
 
 * download nodejs on your system.
 
-* Clone this project using
-`git clone https://github.com/kedarnadkarny/React-notes.git`
+* Clone this project by entering this line in terminal
+`git clone https://github.com/kedarnadkarny/React-notes.git` 
 
 * After that-
 `cd React-notes`
@@ -16,15 +16,18 @@
 https://firebase.google.com/
 
 
-* Create a project and change database rules in Realtime Database- (Caution! Anyone with acess to your app can add/remove data!)
+* Create a project and change database rules in Realtime Database- (Caution! Anyone with access to your app can add/remove data!)
 
-    `{"rules": {
+```
+{
+  "rules": {
     ".read": true,
     ".write": true
   }
-}`
+}
+```
 
-* Create file config.js under src/Config
+* Create file config.js under src/Config/
 
 * Get details from firebase project and add to config.js
 
